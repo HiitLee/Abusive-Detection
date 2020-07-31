@@ -1,8 +1,8 @@
-# @Author : bamtercelboo
-# @Datetime : 2018/07/10 16.03
-# @File : train.py
-# @Last Modify Time : 2018/07/10 16.03
-# @Contact : bamtercelboo@{gmail.com, 163.com}
+# @Author : juhyounglee
+# @Datetime : 2020/08/01 
+# @File : Load_Pretrained_Embed.py
+# @Last Modify Time : 2020/08/01
+# @Contact : juhyounglee@{yonsei.ac.kr}
 
 """
     FILE :  Load_Pretrained_Embed.py

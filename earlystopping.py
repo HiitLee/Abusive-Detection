@@ -1,3 +1,9 @@
+# @Author : juhyounglee
+# @Datetime : 2020/08/01 
+# @File : earlystopping.py
+# @Last Modify Time : 2020/08/01
+# @Contact : juhyounglee@{yonsei.ac.kr}
+
 import numpy as np
 import torch
 
