@@ -130,51 +130,6 @@ class Configurable(myconf):
         return self._config.getboolean("Model", "wide_conv")
 
     @property
-    def BiLSTM(self):
-        return self._config.getboolean("Model", "BiLSTM")
-
-    @property
-    def BiLSTM_Attn(self):
-        return self._config.getboolean("Model", "BiLSTM_Attn")
-
-    @property
-    def BiLSTM_Maxpool(self):
-        return self._config.getboolean("Model", "BiLSTM_Maxpool")
-
-    @property
-    def CLSTM(self):
-        return self._config.getboolean("Model", "CLSTM")
-
-    @property
-    def HAN(self):
-        return self._config.getboolean("Model", "HAN")
-
-    @property
-    def HCL(self):
-        return self._config.getboolean("Model", "HCL")
-
-    @property
-    def HCL_CLSTM(self):
-        return self._config.getboolean("Model", "HCL_CLSTM")
-
-    @property
-    def HCL_CLSTM_CLSTM(self):
-        return self._config.getboolean("Model", "HCL_CLSTM_CLSTM")
-
-    @property
-    def LSTM(self):
-        return self._config.getboolean("Model", "LSTM")
-
-    @property
-    def LSTM_Attn(self):
-        return self._config.getboolean("Model", "LSTM_Attn")
-
-    @property
-    def LSTM_Maxpool(self):
-        return self._config.getboolean("Model", "LSTM_Maxpool")
-
-
-    @property
     def embed_dim(self):
         return self._config.getint("Model", "embed_dim")
     
