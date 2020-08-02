@@ -164,10 +164,9 @@ def eval(X_train, y_train, model,embedding, args):
 
             
     print(' Evaluation - acc: {:.4f}'.format(F1score))
-    ddf = open("abc_base.txt",'a', encoding='UTF8')
+    ddf = open("result.txt",'a', encoding='UTF8')
     ddf.write("roc: "+str(ROC)+ "f1score: "+str(F1score)+'\n')
     ddf.close()
-    print("###################################################################")
             
     '''
     if test is False:
